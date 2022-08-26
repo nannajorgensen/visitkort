@@ -1,13 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300&display=swap');
 
-:root{
-    --base-color: #594236;
-    --accent-color: #98725D;
-
-    --base-font: Verdana, Geneva, Tahoma, sans-serif;
-    --accent-font: 'Cormorant Garamond', serif;;
-}
-
 *{
     margin: 0;
     padding: 0;
@@ -20,16 +12,20 @@ body{
     color: var(--base-color);
 }
 
-h1,h2{
+h1,h2,h3{
     font-family: var(--accent-font);
     color: var(--accent-color);
+
+    width: 100%;
+    text-align: center;
+    padding-top: 0.5em;
 }
 
 .img-round{
     width: 30vh;
     height: 30vh;
 
-    border-radius: 100%;
+    border-radius: 105%;
 }
 
 header, main, footer{
@@ -68,4 +64,60 @@ a:hover{
     flex-direction: row;
     flex-wrap: wrap;
     gap: 1em;
+}
+
+.gallary{
+    display: flex;
+
+    width: 50%;
+
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: baseline;
+}
+
+.gallary article{
+    width: 30vh;
+    padding: 0.5em;
+}
+
+.gallary article:hover{
+    opacity: 0.5;
+}
+
+.gallary article img{
+    width: 100%;
+}
+
+.banner{
+    width: 100%;
+    height: 40vh;
+
+    padding: 0;
+
+    object-fit: contain;
+    overflow: hidden;
+}
+
+.banner img{
+    width: 100%;
+    margin: -30%;
+}
+
+nav{
+    width: 100%;
+
+    border-bottom: 1px solid var(--accent-color);
+
+    font-size: 1.2em;
+    font-style: italic;
+}
+
+nav a{
+    padding: 0.5em;
+}
+
+.center-text{
+    text-align: center;
 }

@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300&family=Taviraj:ital,wght@1,200&display=swap');
+
+:root{
+    --base-color: #594236;
+    --accent-color: #98725D;
+    --picment-color: #7F5539;
+    --background-color: #ECE2D0;
+
+    --base-font: Verdana, Geneva, Tahoma, sans-serif;
+    --accent-font: 'Cormorant Garamond', serif;
+    --picment-font:'Taviraj', serif;
+}
+
+body{
+    background-color: var(--background-color);
+}
+p{
+    color: var(--picment-color);
+    font-family: var(--picment-font);
+    font-size: 150%;
+}
+li{
+    font-family: var(--picment-font);
+    font-size: 120%;
+    gap: 5%;
+}
+li1{
+    color: var(--picment-color);
+    font-family: var(--picment-font);
+    font-size: 120%;
+    gap: 5%;
+}
+li2{
+    color: var(--picment-color);
+    font-family: var(--picment-font);
+    font-size: 120%;
+    gap: 5%;
+}
+a1{
+    color: var(--picment-color);
+}
+a1:hover{
+    color: var(--accent-color);
+}
+a2{
+    color: var(--picment-color);
+}
+
+a2:hover{
+    color: var(--accent-color);
+}
